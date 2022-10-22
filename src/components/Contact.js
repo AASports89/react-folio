@@ -5,12 +5,12 @@ class Contact extends Component {
   
 render() {
   return (
-    <div class="container contact-form">
+    <div class="container contact-form" id="contact-form">
+        <h4 class="section-title" id="contact"><img src="/images/contact.png" alt="Contact Me"></img></h4>
             <div class="contact-image">
                 <img id="profile" src='/images/profile-pic.png' alt="Aram Avakyan"/>
             </div>
             <form method="post">
-                <h3 id="contact"><img src="/images/contact.png" alt="Contact Me"></img></h3>
                <div class="row">
                     <div data-aos="fade-left" class="col-md-6">
                         <div class="form-group">

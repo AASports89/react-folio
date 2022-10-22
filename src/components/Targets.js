@@ -6,7 +6,6 @@ import Skills from './Skills';
 import Projects from './Projects';
 import Education from './Education';
 import Contact from './Contact';
-import Footer from './Footer';
 
 class Targets extends Component {
 render() {
@@ -35,7 +34,6 @@ render() {
         <div id="contact">
           <Contact />
         </div>
-        <Footer />
 
     </div>
 
