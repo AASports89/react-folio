@@ -1,0 +1,27 @@
+.navbar{
+    position:fixed;
+    background-image: linear-gradient(rgb(126, 153, 251) 0%, rgb(6, 6, 129) 100%);
+    box-shadow: 0 10px 5px 0 rgb(52, 52, 54), 0 10px 10px 0 rgb(45, 45, 46);
+    margin-bottom: 80%;
+}
+
+#navi-link a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#navi-link a:hover {
+    color: black;
+    font-size: 150%;
+    transition: all 0.3s ease-in-out;
+}
+
+.collapse{
+    color:white;
+}
+
+#nav {
+    width: 70%;
+}

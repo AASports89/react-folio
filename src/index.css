@@ -1,0 +1,39 @@
+body {
+ height:100%;
+ width:100%;
+ /* Resize the background image to cover the entire container */
+ background: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1666472877/public/images/back_fdgbmq.gif') no-repeat center center fixed; 
+
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+
+
+
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-title{
+  margin: auto;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 200%;
+  padding-bottom: 3%;
+  color:white;
+}
+
+.component-container{
+  padding-left:2%;
+  padding-right:5%;
+  width: 100%;
+  padding-top:7%;
+  background-color: rgba(0, 0, 0, 0.74);
+}

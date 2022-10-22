@@ -1,0 +1,147 @@
+
+ .name-heading {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+ }
+
+
+ .custom-row {
+  margin-top: 5%;
+  background-image: linear-gradient(rgb(226, 228, 232) 0%, rgb(73, 73, 76) 100%);
+ }
+
+ @media only screen and (max-width: 600px) {
+  .custom-row{
+     margin-top:10%;
+   }
+}
+
+.card-body {
+  background-color:#38373a;
+  text-align: center;
+  color:white;
+}
+
+#card-body {
+  padding-top: 10%;
+  border: 1px solid whitesmoke;
+  background-image: linear-gradient(rgb(126, 153, 251) 0%, rgb(6, 6, 129) 100%);
+  border-radius: 0.25em;
+}
+
+#title {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#hub {
+  text-align: center;
+}
+
+#git {
+  color: whitesmoke;
+  font-size: 125%;
+}
+
+.resume-label {
+  color: whitesmoke;
+  font-size: 125%;
+}
+
+.email {
+  color: whitesmoke;
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.phone {
+  color: whitesmoke;
+  font-size: 115%;
+  font-weight: bold;
+}
+
+.title {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.card-header {
+ height: 50px;
+ background-color: #464549;
+ text-align: center;
+}
+
+  .img-fluid {
+    text-align: center;
+  }
+
+  .profile-img {
+    padding-top:5%;
+    margin-left: 5%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .custom-row {
+      padding-top:15%;
+     }
+
+  }
+
+  #github {
+    width: 50%;
+    margin-left: 3%;
+  }
+
+  #github:hover {
+    width: 60%;
+  }
+  
+  .bio h3 {
+      color:white;
+      font-weight: bold;
+      text-align: center;
+      font-size: 200%;
+  }
+
+  .bio p {
+    color:white;
+}
+
+  .hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+#download-icon {
+  width: 30%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 12%;
+}
+
+#download-icon:hover {
+  transition: all 0.3s ease-in-out;
+  width: 40%;
+}
+
+#custom {
+  box-shadow: 0 10px 5px 0 rgb(170, 170, 178), 0 10px 10px 0 rgb(99, 99, 102);
+}
+
+#my-story {
+  width: 35%;
+}
+
+#profile-pic {
+border: 1.5px solid whitesmoke;
+border-radius: 2em;
+}
