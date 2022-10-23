@@ -43,7 +43,7 @@ function Navbar() {
     <nav id="main-navbar" data-aos="fade-left" class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
     <a class="navbar-brand" href=".">
     <div class="row site-name">
-     <img src='/images/nav-brand.png' id="nav" class="d-inline-block align-top" alt=""></img>
+     <img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/nav-brand_ob1ew4.png' id="nav" class="d-inline-block align-top" alt=""></img>
     </div>
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">

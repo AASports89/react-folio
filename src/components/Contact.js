@@ -6,9 +6,9 @@ class Contact extends Component {
 render() {
   return (
     <div class="container contact-form" id="contact-form">
-        <h4 class="section-title" id="contact"><img src="/images/contact.png" alt="Contact Me"></img></h4>
+        <h4 class="section-title" id="contact"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/contact_h0qhqv.png" alt="Contact Me"></img></h4>
             <div class="contact-image">
-                <img id="profile" src='/images/profile-pic.png' alt="Aram Avakyan"/>
+                <img id="profile" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan"/>
             </div>
             <form method="post">
                <div class="row">

@@ -19,3 +19,27 @@ h4 {
 #top {
     justify-content: center;
 }
+
+#weather {
+    border: 1px solid black;
+}
+
+#event {
+    border: 1px solid black;
+}
+
+#pill {
+    border: 1px solid black;
+}
+
+#notes {
+    border: 1px solid black;
+}
+
+#passgen {
+    border: 1px solid black;
+}
+
+#blog {
+    border: 1px solid black;
+}

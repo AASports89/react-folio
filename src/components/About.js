@@ -7,12 +7,12 @@ render() {
 
      <div class="component-container">
        <div class="row">
-        <h4 class="section-title" id="section-title"><img src="/images/work-experience.png" alt="Work Experience"></img></h4>
+        <h4 class="section-title" id="section-title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/work-experience_zizfty.png" alt="Work Experience"></img></h4>
        </div>
         <div class="row">
           <div data-aos="slide-right" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0" id="border">
-              <img class="card-img custom-card-image" id="ligolab" src='/images/ligologo.jpg' alt="LigoLab Information Systems"></img>
+              <img class="card-img custom-card-image" id="ligolab" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/ligologo_ehatzh.png' alt="LigoLab Information Systems"></img>
               <div class="card-body" id="ligo">
                 <h4 class="card-title about-heading">Junior Developer</h4>
               <li>Perform troubleshooting based on submitted tickets by medical laboratory clients regarding software bugs.</li>
@@ -24,7 +24,7 @@ render() {
 
           <div data-aos="zoom-in" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0">
-              <img class="card-img custom-card-image" id="kaiser" src='/images/kaiser.png' alt="Kaiser"></img>
+              <img class="card-img custom-card-image" id="kaiser" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/kaiser_r0pwoj.png' alt="Kaiser"></img>
               <div class="card-body" id="kp">
                 <h4 class="card-title about-heading">Health Information Technologist</h4>
                 <li>Gathered data using the EPIC EMR platform.</li>
@@ -37,7 +37,7 @@ render() {
 
           <div data-aos="slide-left" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0">
-              <img class="card-img custom-card-image" id="cvs" src='/images/cvs.png' alt="CVS"></img>
+              <img class="card-img custom-card-image" id="cvs" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/cvs_bnkjko.png' alt="CVS"></img>
               <div class="card-body" id="intern">
                 <h4 class="card-title about-heading">Pharmacist Intern</h4>
                 <li>Administered immunizations to the general public.</li>

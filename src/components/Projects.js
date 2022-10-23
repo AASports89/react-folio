@@ -6,15 +6,15 @@ render() {
   return (
     <div class="component-container">
        <div class="row" id="top">
-           <h4 class="section-title"><img src="/images/projects.png" alt="Notable Projects"></img></h4>
+           <h4 class="section-title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484179/public/images/projects_n09lht.png" alt="Notable Projects"></img></h4>
        </div>
         <div class="row">
           <div data-aos="slide-right" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0">
             <a href="https://shrouded-temple-26204.herokuapp.com/">
-            <img class="card-img custom-card-image" src='/images/blog-git.gif' alt="Blog Git"></img>
+            <img class="card-img custom-card-image" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666561039/public/images/blog_bm7g9f.gif' alt="Blog Git"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="blog">
                 <h4 class="card-title about-heading" id="card-heading">Blog Git</h4>
                 <p class="card-text">
                   <strong>Blog Git</strong> is a CMS-style blog was designed based on 
@@ -30,9 +30,9 @@ render() {
           <div data-aos="zoom-in" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0">
             <a href="https://aasports89.github.io/Event-Fan-Follow/">
-              <img class="card-img custom-card-image" src='/images/event-fan-follow.gif' alt="Event Fan Follow"></img>
+              <img class="card-img custom-card-image" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666561444/public/images/event_wzcd3g.gif' alt="Event Fan Follow"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="event">
                 <h4 class="card-title about-heading" id="card-heading">Event Fan Follow</h4>
                 <p class="card-text">
                   <strong>Event Fan Follow</strong> is a web-based application utilizing HTML, 
@@ -48,10 +48,10 @@ render() {
 
           <div data-aos="zoom-in" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0">
-            <a href="https://shrouded-temple-26204.herokuapp.com/">
-              <img class="card-img custom-card-image" src='/images/passgen.gif' alt="Password Generator"></img>
+            <a href="https://aasports89.github.io/secret-password-generator/">
+              <img class="card-img custom-card-image" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/passgen_qgzz4h.gif' alt="Password Generator"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="passgen">
                 <h4 class="card-title about-heading" id="card-heading">SecRet PassWord GeneRator</h4>
                 <p class="card-text">
                   <strong>SecRet PassWord GeneRator</strong> is an easy to use application designed 
@@ -70,9 +70,9 @@ render() {
             <div class="card border-0">
             <a href="https://git-your-notes.herokuapp.com/">
               <img class="card-img custom-card-image" 
-              src='/images/note-taker.gif' alt="Git Your Notes"></img>
+              src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666561067/public/images/note-taker_chprvx.gif' alt="Git Your Notes"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="notes">
                 <h4 class="card-title about-heading" id="card-heading">Git Your Notes</h4>
                 <p class="card-text"><strong>Git Your Notes</strong> is a note taker application 
                 powered by Express.js and JSON files to store, 
@@ -88,9 +88,9 @@ render() {
             <div class="card border-0">
             <a href="https://pill-git-it.herokuapp.com/">
               <img class="card-img custom-card-image" 
-              src='/images/pill-git-it.gif' alt="Pill Git It"></img>
+              src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666561068/public/images/pill_nni5xv.gif' alt="Pill Git It"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="pill">
                 <h4 class="card-title about-heading" id="card-heading">Pill Git It</h4>
                 <p class="card-text">
                   <strong>Pill Git It</strong> is a web-based application providing medication 
@@ -107,9 +107,9 @@ render() {
           <div data-aos="slide-left" class="col-12 col-sm-8 col-md-6 col-lg-4" id="weather">
             <div class="card border-0">
             <a href="https://aasports89.github.io/Git-Your-Weather/">
-              <img class="card-img custom-card-image" src='/images/gitweather.gif' alt="Git Your Weather"></img>
+              <img class="card-img custom-card-image" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/gitweather_ezoces.gif' alt="Git Your Weather"></img>
               </a>
-              <div class="card-body">
+              <div class="card-body" id="weather">
                 <h4 class="card-title about-heading" id="card-heading">Git Your Weather</h4>
                 <p class="card-text">
                   <strong>Git Your Weather</strong> is a simple web-based application that 

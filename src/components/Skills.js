@@ -8,7 +8,7 @@ render() {
   return (
    <div class="component-container" id="skills">
    <div class="row">
-       <h4 class="section-title"><img src="/images/skills.png" alt="Skills"></img></h4>
+       <h4 class="section-title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484179/public/images/skills_zelnsq.png" alt="Skills"></img></h4>
    </div>
    <div class="row">
         <div data-aos="fade-left" class="col-sm-6">

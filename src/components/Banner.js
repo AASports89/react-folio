@@ -16,13 +16,13 @@ function Banner() {
       
      <div data-aos="zoom-in" class="col-sm-3" id="custom-row">
         <h2 class="name-heading">
-          <img id="profile-pic" src='/images/profile-pic.png' alt="Aram Avakyan" class="img-fluid profile-img">
+          <img id="profile-pic" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan" class="img-fluid profile-img">
             </img></h2>
       </div>
 
       <div data-aos="slide-up" class="col-sm-6">
         <div class="bio">
-            <h3><img id="my-story" src="/images/my-story.png" alt="My Story"></img></h3>
+            <h3><img id="my-story" src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/my-story_girujv.png" alt="My Story"></img></h3>
            <p>
             I grew up in Los Angeles, CA enjoying the beach, hiking, and all
             of the other numerous aesthetic environments available throughout
@@ -55,11 +55,11 @@ function Banner() {
             <p class="phone"><b>Direct:</b> (818) ###-####</p>
             <div class="row">
             <a href="https://aasports89.github.io/my-portfolio-space/CV.html">
-                <img src='/images/magnify.png' alt="..." id="download-icon"></img>
+                <img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/magnify_cvjrpx.png' alt="View Resume" id="download-icon"></img>
             </a>
             </div>
             <div class="row">
-              <a href="https://github.com/AASports89"><img src='/images/github-icon.png' alt="github-icon" id="github"/></a>
+              <a href="https://github.com/AASports89"><img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/github-icon_mvuylu.png' alt="github-icon" id="github"/></a>
            </div>
           </div>
         </div>

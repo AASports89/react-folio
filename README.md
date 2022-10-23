@@ -3,13 +3,9 @@
 ## Overview
 ---
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+**React Folio** centers on the idea of being a web developer while being part of a community. This web application is a place not only to share developer projects while seeking employment poisitions or working as a freelancer, but also to share work with other developers for potential collaboration opportunities.
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
+Additionally, **React Folio** utilized ```REACT.js``` technology, allowing for maximum flexibility to design the portfolio desired with a unique and personalized perspective. Overall, this web application can be used to distinguish projects, style, and one's story.
 
 ## Table of Contents
 ---
@@ -70,7 +66,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./public/images/react-folio.gif)
 
 ## Getting Started
 ---
@@ -85,35 +81,9 @@ You’ll use `create-react-app` to build your portfolio, which will include the 
 
 * A single `Footer` component that appears on multiple pages
 
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
-
-### Projects
-
-For each project that is featured in your portfolio, include the following:
-
-* An image of the deployed application (either a short animated GIF or screenshot)
-
-* The title of the project
-
-* A link to the deployed application
-
-* A link to the corresponding GitHub repository
-
-### Design
-
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
-
-* Use mobile-first design.
-
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
-
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
-
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
-
 ## Deployed Webpage URL
 ---
-> 
+> https://aasports89.github.io/react-folio/
 
 ## GitHUB Repository URL
 ---
@@ -170,7 +140,7 @@ As with the previous portfolio Challenge, remember that "good" design is subject
 ## Contact Info
 ---
 > **Note:** Any Questions? 
-> * Please visit my deployed application webpage @https://shrouded-temple-26204.herokuapp.com/
+> * Please visit my deployed application webpage @https://aasports89.github.io/react-folio/
 
 > * Additionally, you can view the source code for this project and others @https://github.com/AASports89/
 
