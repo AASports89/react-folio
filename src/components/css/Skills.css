@@ -49,3 +49,8 @@
    height:50px;
    background-color: #1f1c18;
  }
+
+ #skills {
+  box-shadow: 0 10px 5px 0 rgb(170, 170, 178), 0 10px 10px 0 rgb(99, 99, 102);
+  justify-content: center;
+}

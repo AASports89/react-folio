@@ -6,7 +6,7 @@ class Skills extends Component {
 render() {
 
   return (
-   <div class="component-container">
+   <div class="component-container" id="skills">
    <div class="row">
        <h4 class="section-title"><img src="/images/skills.png" alt="Skills"></img></h4>
    </div>

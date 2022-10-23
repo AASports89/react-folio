@@ -19,16 +19,16 @@ render() {
           <About />
         </div>
 
-        <div id="skills">
-          <Skills />
-        </div>
-
         <div id="projects">
           <Projects />
         </div>
 
         <div id="achievements">
           <Education />
+        </div>
+
+        <div id="skills">
+          <Skills />
         </div>
 
         <div id="contact">
