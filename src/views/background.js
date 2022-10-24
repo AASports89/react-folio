@@ -20,7 +20,7 @@ export default function Background() {
 				<img id="profile-pic" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan" class="img-fluid profile-img">
             	</img>
 					<br />
-					I&apos;m a Full Stack Web Developer & Pharm.D.
+					Full Stack Web Developer & Pharm.D.
 				</h1>
 {/* OFFSET CAN BE CHANGE IN NODE MODULES --> DEFAULT */}
 				<button className={"work-button wow bounceIn"} data-wow-offset="0"

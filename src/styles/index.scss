@@ -1,8 +1,7 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-
-/*****************STARTS TOP BACKGROUND SECTION***************/
+//****************************************** START TOP BACKGROUND SECTION *******************************************//
 #stars {
   width: 1px;
   height: 1px;
@@ -64,7 +63,7 @@
   }
 }
 
-/*********************************************************************************/
+//*********************************************** END TOP BACKGROUND SECTION ************************************************//
 
 .background {
     overflow: hidden;
@@ -79,18 +78,15 @@
     align-items: center;
 }
 
-
 @keyframes move {
   from { top: -80px;}
   to   { top: 0; }
 }
 
-
 .progress {
     height: 1.5rem;
     font-size: 1rem;
 }
-
 
 #bio-text {
     color: whitesmoke;
