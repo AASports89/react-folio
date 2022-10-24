@@ -1,5 +1,5 @@
-.navbar{
-    position:fixed;
+.navbar {
+    position: fixed;
     background-image: linear-gradient(rgb(126, 153, 251) 0%, rgb(6, 6, 129) 100%);
     box-shadow: 0 10px 5px 0 rgb(52, 52, 54), 0 10px 10px 0 rgb(45, 45, 46);
 }
@@ -23,9 +23,6 @@
     cursor: pointer;
 }
 
-.collapse{
-    color:white;
-}
 
 #nav {
     width: 70%;
