@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+//IMPORT CSS --> ABOUT//
 import './css/About.css';
 
 class About extends Component {

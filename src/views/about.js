@@ -1,5 +1,5 @@
 import React from "react";
-
+//IMPORT COMPONENTS --> ABOUT//
 import AboutDescription from "./../components/about/about.description";
 
 export default function About(props) {

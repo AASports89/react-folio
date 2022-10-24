@@ -1,6 +1,8 @@
 import React, {useEffect} from "react";
+//IMPORT EFFECTS & MOVEMENT PACKAGES --> NAVBAR & ELEMENTS//
 import Aos from "aos";
 import SmoothScrollTo from "../hooks/smoothScrollTo";
+//IMPORT CSS --> NAVBAR//
 import './css/Navbar.css';
 
 
