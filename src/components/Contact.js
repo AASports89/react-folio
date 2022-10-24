@@ -8,7 +8,7 @@ export default function ContactForm() {
         <div class="contact-image">
         <img id="profile" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan"/>
         </div>
-        <form className="wow pulse" action="https://formspree.io/example@email.com" method="POST">
+        <form className="wow pulse" action="https://formspree.io/f/maykpnjz" method="POST">
             <div className="form-group">
                 <div className="row">
                     <div className="col-12">
