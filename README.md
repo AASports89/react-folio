@@ -91,7 +91,7 @@ You’ll use `create-react-app` to build your portfolio, which will include the 
 
 ## Grading Requirements
 ---
-> **Note:** The following evaluation guideline is used to determine if **'Blog Git'** meets the requirements for a minimum viable product:
+> **Note:** The following evaluation guideline is used to determine if **React Folio** meets the requirements for a minimum viable product:
 
 ### Technical Acceptance Criteria: 40%
 

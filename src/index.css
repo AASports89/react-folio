@@ -7,10 +7,7 @@ body {
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
-
-
-
-  margin: 2%;
+ 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +27,7 @@ code {
 }
 
 .component-container{
-padding: 5%;
+  padding: 5%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.74);
 }

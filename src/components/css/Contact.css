@@ -16,13 +16,13 @@
     text-align: center;
 }
 
-.contact-image img{
+.contact-image #profile {
     width: 25%;
     transform: rotate(25deg);
 }
 
 .contact-form form{
-    padding: 14%;
+    padding: 10%;
 }
 
 .contact-form form .row{
@@ -31,7 +31,7 @@
 
 #btn {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 100%;
     font-weight: bold;
     color: whitesmoke;
@@ -48,10 +48,23 @@
     color: black;
 }
 
-#contact-form {
-    justify-content: center;
-}
-
 #contact {
     padding-top: 5%;
+}
+
+#form {
+    padding-top: 5%;
+}
+
+#message {
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+#name {
+    margin-bottom: 10%;
+}
+
+#email {
+    margin-top: 15%;
 }

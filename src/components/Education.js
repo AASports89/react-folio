@@ -5,9 +5,6 @@ class Education extends Component {
 render() {
   return (
     <div class="component-container" id="education">
-    <div class="row" id="achievements">
-    <h4 class="section-title" id="title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/education_na5jxe.png" alt="Education"></img></h4>
-    </div>
      <div class="row" id="educate">
 
      <div data-aos="zoom-in" class="col-12 col-sm-8 col-md-6 col-lg-4">

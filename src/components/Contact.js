@@ -1,41 +1,60 @@
-import React,{ Component } from 'react';
+import React from "react";
 import './css/Contact.css';
 
-class Contact extends Component {
-  
-render() {
-  return (
-    <div class="container contact-form" id="contact-form">
-        <h4 class="section-title" id="contact"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/contact_h0qhqv.png" alt="Contact Me"></img></h4>
-            <div class="contact-image">
-                <img id="profile" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan"/>
+export default function ContactForm() {
+    return(
+        <div class="container contact-form" id="contact-form">
+        <div class="contact-image">
+        <img id="profile" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/profile-pic_fjr1ny.png' alt="Aram Avakyan"/>
+        </div>
+        <form className="wow pulse" action="https://formspree.io/example@email.com" method="POST">
+            <div className="form-group">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="col-md-4 mx-auto">
+                        <input
+                            type="text"
+                            name="name"
+                            className="form-control form-control-lg"
+                            id="name"
+                            placeholder="Enter name..."
+                        />
+                    </div>
+                    </div>
             </div>
-            <form method="post">
-               <div class="row">
-                    <div data-aos="fade-left" class="col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Enter Name..." value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Enter Email..." value="" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Enter Phone Number..." value="" />
-                        </div>
+            <div className="form-group hidden">
+                    <div className="col-md-4 mx-auto">
+                        <input
+                            type="email"
+                            name="_replyto"
+                            className="form-control form-control-lg"
+                            id="email"
+                            placeholder="Enter email..."
+                        />
                     </div>
-                    <div data-aos="flip-up" class="col-md-6">
-                        <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Enter Message..." rows="6" columns="30"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" id="btn" value="Send Message" />
-                        </div>
                     </div>
+            </div>
+            <div className="form-group hiddenRight">
+                    <div className="col-md-6 mx-auto">
+                        <textarea
+                            name="message"
+                            className="form-control form-control-lg"
+                            id="message"
+                            rows="3"
+                            placeholder="Enter message here..."
+                        />
+                    </div>
+            </div>
+            <div className="row text-md-right text-sm-center">
+                <div className="col-12 col-md-6 mx-auto">
+                    <button
+                        type="submit"
+                        className="btn btn-primary mb-2 hidden">
+                        Submit 📬
+                    </button>
                 </div>
-            </form>
-</div>
-  );
+            </div>
+        </form>
+        </div>
+    )
 }
-}
-
-export default Contact;

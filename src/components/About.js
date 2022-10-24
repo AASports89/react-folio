@@ -5,14 +5,11 @@ class About extends Component {
 render() {
   return (
 
-     <div class="component-container">
-       <div class="row">
-        <h4 class="section-title" id="section-title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484180/public/images/work-experience_zizfty.png" alt="Work Experience"></img></h4>
-       </div>
+     <div class="component-container" id="work">
         <div class="row">
           <div data-aos="slide-right" class="col-12 col-sm-8 col-md-6 col-lg-4">
             <div class="card border-0" id="border">
-              <img class="card-img custom-card-image" id="ligolab" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/ligologo_ehatzh.png' alt="LigoLab Information Systems"></img>
+              <img class="card-img custom-card-image" id="ligolo" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484175/public/images/ligologo_ehatzh.png' alt="LigoLab Information Systems"></img>
               <div class="card-body" id="ligo">
                 <h4 class="card-title about-heading">Junior Developer</h4>
               <li>Perform troubleshooting based on submitted tickets by medical laboratory clients regarding software bugs.</li>

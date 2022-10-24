@@ -1,85 +1,67 @@
-import React,{useEffect} from 'react';
-import './css/Navbar.css';
+import React, {useEffect} from "react";
 import Aos from "aos";
-import $ from "jquery";
-
-import Targets from './Targets';
-
-
-function Navbar() {
-  useEffect(()=>{
-    Aos.init({duration:2000});
-
-    $('body').scrollspy({ target: '#main-navbar' });
-
-    var started=0;
-
-    $(window).scroll(function() {
-      if ($('#skills').is(':visible') && started!==1) {
-        var delay = 500;
-        $(".progress-bar").each(function(i){
-            $(this).delay( delay*i ).animate( { width: $(this).attr('aria-valuenow') + '%' }, delay );
-    
-            $(this).prop('Counter',0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: delay,
-                easing: 'swing',
-                step: function (now) {
-                    $(this).text(Math.ceil(now)+'%');
-                }
-            });
-        });
-        started=1;
-      }
-  });
+import SmoothScrollTo from "../hooks/smoothScrollTo";
+import './css/Navbar.css';
 
 
-    
-   },[]);
+export default function Navbar() {
+	
+    useEffect(() => {
+		Aos.init({duration:2000});
+		window.addEventListener("scroll", () => {
+			var navBar = document.getElementById("navbar");
+			var domRect = navBar.getBoundingClientRect();
+			var myBackground = document.getElementById("my-background");
+			var domBGRect = myBackground.getBoundingClientRect();
 
-  return (
-  <div id="home">
-    <nav id="main-navbar" data-aos="fade-left" class="navbar navbar-expand-md navbar-dark fixed-top bg-black">
-    <a class="navbar-brand" href=".">
-    <div class="row site-name">
-     <img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/nav-brand_ob1ew4.png' id="nav" class="d-inline-block align-top" alt=""></img>
-    </div>
-  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        
-        <ul data-aos="zoom-in" class="navbar-nav ml-auto" id="navi">
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link active page-scroll" href="#banner">HOME</a>
-            </li>
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link page-scroll" href="#about">ABOUT</a>
-            </li>
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link page-scroll" href="#skills">SKILLS</a>
-            </li>
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
-            </li>
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link page-scroll" href="#achievements">EDUCATION</a>
-            </li>
-            <li class="nav-item" id="navi-link">
-                <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+			if (domRect.y <= -domRect.height) {
+				navBar.classList.add("fade-in-nav");
+			}
+			if (-domBGRect.height < domBGRect.top) {
+				navBar.classList.remove("fade-in-nav");
+			}
+		});
+	}, [])
 
-<Targets />
-
-</div>
-
-
-  );
+    return (
+		<div>
+			<nav
+				id="navbar"
+				className="navbar navbar-expand-lg navbar-light bg-light">
+				<div className="container">
+					<a
+						className="home-style navbar-brand"
+						onClick={() => {
+							window.scrollTo({
+								top: 0,
+								behavior: "smooth"
+							});
+						}}>
+     					<img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/nav-brand_ob1ew4.png' id="nav" class="d-inline-block align-top" alt=""></img>
+					</a>
+					<button
+						className="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span className="navbar-toggler-icon" />
+					</button>
+					<div
+						className="collapse navbar-collapse"
+						id="navbarNavAltMarkup">
+						<div className="navbar-nav">
+							<a onClick={() => SmoothScrollTo("about-container")} className="btn-style nav-item nav-link">ABOUT</a>
+							<a onClick={() => SmoothScrollTo("my-projects")}className="btn-style nav-item nav-link">PROJECTS</a>
+							<a onClick={() => SmoothScrollTo("my-experience")}className="btn-style nav-item nav-link">WORK EXPERIENCE</a>
+							<a onClick={() => SmoothScrollTo("my-education")}className="btn-style nav-item nav-link">EDUCATION</a>
+							<a onClick={() => SmoothScrollTo("my-contact")}className="btn-style nav-item nav-link">CONTACT ME</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	);
 }
-
-export default Navbar;

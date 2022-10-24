@@ -1,32 +1,42 @@
-.navbar{
-    position:fixed;
+#footer {
     background-image: linear-gradient(rgb(126, 153, 251) 0%, rgb(6, 6, 129) 100%);
-    box-shadow: 0 10px 5px 0 rgb(52, 52, 54), 0 10px 10px 0 rgb(45, 45, 46);
+    border-top: 1.5px solid whitesmoke;
 }
 
-.navbar-nav a {
+#navi-link a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125%;
     font-weight: bold;
     color: whitesmoke;
-    cursor: pointer;
 }
 
- .navbar-nav a:hover {
+#navi-link a:hover {
     color: black;
     font-size: 150%;
     transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.navbar-brand {
-    cursor: pointer;
 }
 
 .collapse{
     color:white;
 }
 
-#nav {
-    width: 70%;
+
+#username {
+    font-weight: bold;
+    font-size: 125%;
+    color: whitesmoke;
+}
+
+#github {
+    width: 15%;
+    margin-left: 20%;
+}
+
+#resume {
+    width: 15%;
+    margin-left: 20%;
+}
+
+#ligolab {
+    width: 20%;
 }

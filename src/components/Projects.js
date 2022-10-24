@@ -4,9 +4,8 @@ import './css/Projects.css';
 class Projects extends Component {
 render() {
   return (
-    <div class="component-container">
+    <div class="component-container" id="project">
        <div class="row" id="top">
-           <h4 class="section-title"><img src="https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484179/public/images/projects_n09lht.png" alt="Notable Projects"></img></h4>
        </div>
         <div class="row">
           <div data-aos="slide-right" class="col-12 col-sm-8 col-md-6 col-lg-4">
@@ -109,7 +108,7 @@ render() {
             <a href="https://aasports89.github.io/Git-Your-Weather/">
               <img class="card-img custom-card-image" src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/gitweather_ezoces.gif' alt="Git Your Weather"></img>
               </a>
-              <div class="card-body" id="weather">
+              <div class="card-body" id="weathers">
                 <h4 class="card-title about-heading" id="card-heading">Git Your Weather</h4>
                 <p class="card-text">
                   <strong>Git Your Weather</strong> is a simple web-based application that 
