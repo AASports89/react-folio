@@ -13,7 +13,6 @@ Additionally, **React Folio** utilized ```REACT.js``` technology, allowing for m
   * [Overview](#overview)
   * [User Story](#user-story)
   * [Acceptance Criteria](#acceptance-criteria)
-  * [Installation](#installation)
   * [Mock Up](#mock-up)
   * [Deployed Webpage URL](#deployed-webpage-url)
   * [GitHUB Repository](#github-repository)
