@@ -43,19 +43,19 @@
 }
 
 #github:hover {
-    width:20%;
+    width:15%;
     border: 1.5px solid whitesmoke;
     border-radius: 0.25em;
 }
 
 #resume:hover {
-    width: 20%;
+    width: 15%;
     border: 1.5px solid whitesmoke;
     border-radius: 0.25em;
 }
 
 #ligolab:hover {
-    width: 25%;
+    width: 20%;
     border: 1.5px solid whitesmoke;
     border-radius: 0.25em;
 }
