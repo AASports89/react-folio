@@ -41,7 +41,7 @@ export default function Navbar() {
 						}}>
      					<img src='https://res.cloudinary.com/dhqsixgmo/image/upload/v1666484176/public/images/nav-brand_ob1ew4.png' id="nav" class="d-inline-block align-top" alt=""></img>
 					</a>
-					<button
+					{/* <button
 						className="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
@@ -50,10 +50,10 @@ export default function Navbar() {
 						aria-expanded="false"
 						aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon" />
-					</button>
-					<div
+					</button> */}
+					{/* <div
 						className="collapse navbar-collapse"
-						id="navbarNavAltMarkup">
+						id="navbarNavAltMarkup"> */}
 						<div className="navbar-nav">
 							<a onClick={() => SmoothScrollTo("about-container")} className="btn-style nav-item nav-link">ABOUT</a>
 							<a onClick={() => SmoothScrollTo("my-projects")}className="btn-style nav-item nav-link">PROJECTS</a>
@@ -62,7 +62,7 @@ export default function Navbar() {
 							<a onClick={() => SmoothScrollTo("my-contact")}className="btn-style nav-item nav-link">CONTACT ME</a>
 						</div>
 					</div>
-				</div>
+				{/* </div> */}
 			</nav>
 		</div>
 	);
